@@ -1,8 +1,8 @@
 <?php
-	define("DB_SERVER", "mysql74.unoeuro.com");
-	define("DB_USER", "catchapp_se");
-	define("DB_PASS", "Losper1cos");
-	define("DB_NAME", "catchapp_se_db_cv");	
+	define("DB_SERVER", "");
+	define("DB_USER", "");
+	define("DB_PASS", "");
+	define("DB_NAME", "");	
 
 	$connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
 	
