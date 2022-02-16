@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Matcha.css">
+    <script type="module" src="view.js">
+    </script>
+    <title>Matcha</title>
+</head>
+<body onload ="loadGame();">
+    
+    <div id="matchaFrame" >
+        <div class = "Matcha" id="Matcha">
+            <div id="courtine">
+                <div id="courtineUp">
+                    <div id="messageContainer">
+                    </div>
+                </div>
+                <div id="courtineDown">
+                    <div id="wrongWords">
+                        <table id="wrongWordsTable">
+                            <tr id="tableData0" class="wrongTablesRow">
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr id="tableData1" class="wrongTablesRow">
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr id="tableData2" class="wrongTablesRow">
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>                
+            </div>
+            <div class="boardContainer">
+                <div class = "column1" id="column1">
+                </div>
+                <div class = "canvasContainer" id="canvasContainer">
+                    <h1 id="round"></h1>
+                    <canvas></canvas>
+                </div>
+                <div class = "column2" id="column2">
+                </div>
+                <div id = "scoreBoardContainer">
+                    <div id = "scoreBoard">
+                        <table id="scoreTable">
+                            <tr>
+                                <td>Score:</td>
+                                <td id="score"></td>
+                            </tr>
+                            <tr id="lifesRow" class="">
+                                <td >Lifes:</td>
+                                <td id="lifes"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="end" class="button" onclick="endGame();">End Game</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+{
+    "welcome":"Välkommen!",
+    "navigation":{
+        "presentation":"presentation",
+        "education":"education",
+        "skills":"kompetenser",
+        "experience":"erfarenhet",
+        "contact":"kontakt",
+        "scrollTo": "Bläddra till {{area}}"
+        ,
+        "linkTo": "Link till {{area}}",
+        "menu": {
+            "alt": "Meny ikon",
+            "title": "Meny"
+        }
+
+    },
+    "card":"Min kompetens som kognitionsvetare är att använda kunskapen om hjärnans funktion och människo-dator interaktion för att designa teknologiska produkter (webbsidor, applikationer, apparaturer eller system). På så sätt kan jag designa tekniska verktyg med en maximerad användbarhet (t.ex genom att minimera den kognitiva belastningen eller att stimulera minnet) särskillt för användargruppen i fokus.",
+    "utbildning": {
+        "title": "Utbildning",
+        
+        "description":"Jag har nyligen avslutat min utbildning inom kognitionsvetenskap på Linköpings universitet. Utbildningen tillsammans med fria kurser som jag har genomfört innebär följande:",
+        "courses": [
+            "Avslutningskurs för kognitionsvetenskap",
+            "Datorkommunikation i internet",
+            "Examensarbete i kognitionsvetenskap",
+            "Grundläggande programmering med C++",
+            "Interaktion och mobilitet",
+            "Interaktion, design och användbarhet I, II, III och IV",
+            "Internet, Samhälle och Politik",
+            "Kognitionsvetenskap - forskningsperspektiv",
+            "Kognitionsvetenskap - introduktion",
+            "Kognitionsvetenskap - kognitiva förmågor I och II",
+            "Projekt i kognitionsvetenskap",
+            "Situerad kognition - interaktion och design",
+            "Situerad kognition",
+            "Social interaktion och kognition",
+            "Socialpsykologi och mellanmänskliga relationer",
+            "Språk, kultur och kognition",
+            "Undersökningsmetodik - kvantitativa och kvalitativa metoder",
+            "Webbutveckling - webbplatsdesign och klient sida/JavaScript"
+        ]
+    },
+    "skills": {
+        "title": "Kompetenser"
+    },
+    "experience":{
+        "title":"Erfarenhet",
+        "javaScript":{
+            "name":"JavaScript",
+            "pairWords": {
+                "name": "Matcha orden",
+                "description":"Den här var mitt första projekt med JavaScript innan jag tog en kurs på universitetet.",
+                "content": ["HTML", "CSS", "JavaScript"],
+                "alt":"den här avdelningen visar ett spel som jag programmerade medan jag läste JavaScript självständigt."
+            },
+            "gameMessage":"Det här 'spelet' designades för större skärmar."
+        },
+        "webDevelopment":{
+            "name":"Webb utveckling",
+            "webCv": {
+                "name": "CV webb",
+                "description": "Det här projektet gjordes för att visa vad jag kan göra.",
+                "content": ["HTML", "CSS", "JavaScript", "React", "NPM bibliotek"],
+                "links": {
+                    "gitHub":"Sidans kod"
+                }
+            },
+            "schoolApp": {
+                "name": "SchoolApp",
+                "description": "SchoolApp är en skol-sökverktyg. Den använder Google Maps, Google Geocoding och Skolverkets API.",
+                "content": ["HTML", "CSS", "JavaScript", "React", "NPM bibliotek", "API användning"],
+                "links": {
+                    "gitHub":"Sidans kod"
+                }
+            }
+        },
+        "design":{
+            "name":"Design",
+            "catchApp": {
+                "name": "CatchApp",
+                "description": "Catchapp är en prototyp av en mobilapplikation för att stimulera den sociala interaktion.",
+                "content": ["Iterationer", "Heuristisk utvärdering", "Användbarhetstester", "Design"],
+                "links": {
+                    "prototype":"prototyp",
+                    "documentation": "Dokumentation"
+                }
+            }
+        },
+        "ux":{
+            "name":"UX",
+            "kompisByrån": {
+                "name": "Kompisbyrån",
+                "description": "I uppdrag av företaget Kompisbyrån genomförde jag en analys av deras webbsida för att utöka dess användbarhet.",
+                "content": ["Heuristisk utvärdering", "Design"],
+                "links": {
+                    "documentation":"Dokumentation"
+                }
+            },
+            "ensios": {
+                "name": "Ensio's AB",
+                "description": "I uppdrag av företaget Ensios´s AB genomförde jag en analys av deras webbsida för att utöka dess användbarhet.",
+                "content": ["Heuristisk utvärdering", "Design"],
+                "links": {
+                    "documentation":"Dokumentation"
+                }
+            }
+        },
+        "research":{
+            "name":"Research",
+            "thesis": {
+                "name": "Examensarbete",
+                "description": "Mitt examensarbete är en studie där jag fokuserar på hur interaktionen med en dator påverkar ordinlärning i ett andraspråk.",
+                "content": ["Fält studier","Kognitiv Teoroi"],
+                "links": {
+                    "documentation":"Länk till mitt examensarbete"
+                }
+            },
+            "arbetsformedlingen": {
+                "name": "Arbetsformedlingen",
+                "description": "Projektet med arbetsformedlingen är en undersökning för att identifiera vilka faktorer påverkar jobbsökandes för att bestämma sig att ansöka till en arbetsplats.",
+                "content": ["Fält studier","Kognitiv Teoroi"],
+                "links": {
+                    "documentation":"Dokumentation"
+                }
+            }
+        }
+    },
+    "footer":{
+        "contact": "Kontakt",
+        "mail":{
+            "title":"Skicka mig en e-post",
+            "alt":"Länk för att skicka mig en e-post."
+        },
+        "phone":{
+            "title":"Ring mig",
+            "alt":"Länk för att ringa mig."
+        },
+        "back": {
+            "title" :"Tillbaka till sidans början",
+            "alt": "Skrolla tillbaka till sidans början."
+        }
+    }
+}

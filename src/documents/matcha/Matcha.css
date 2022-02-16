@@ -1,0 +1,245 @@
+/*
+palette 
+BD1550 red/magenta
+F7F7F7 white/grayish
+E97F02 yellow/orange
+F8CA00 yellow
+*/
+@font-face {
+  font-family: "boldFont";
+  src: url("theboldfont.ttf");
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+#matchaFrame{
+  height:100vh;
+  width:100%;
+}
+.Matcha{
+  width:100%;
+  height:100%;/* agregado*/
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.canvasContainer{
+  width:40%;
+  display:flex;
+  align-content: center;
+  justify-content: center;
+}
+.canvasContainer h1{
+  /* display:none; */
+  position:absolute;
+  margin:0;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  align-self: center;
+  justify-self: center;
+  color:gray;
+  z-index:0;
+}
+
+.canvasContainer canvas {
+  z-index:1;
+}
+
+.alternativeContainer{
+  height:20%;/*agregado*/
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.alternative {
+  height:calc(100% - 6px);
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: "Roboto"; */
+  font-size: 1.3em;
+  text-align: center;
+  box-shadow: 0 5px 5px gray;
+  border-radius:20px;
+  transition: transform 0.5s;
+}
+
+.alternativeOn{
+  background-color:#AC9DFC;
+  border:3px solid black;
+  cursor:grab;
+}
+
+.alternativeOff{
+  background-color:#F7F7F7;
+  -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+  border:3px dashed black;
+  display:none;
+}
+
+.alternativeContainer:last-child div{
+  margin-bottom:5px;
+}
+
+.column1, .column2{
+  width:20%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.mouseOverRight{
+  background-color:#99C1FC;
+  /* margin-left:20px;
+  margin-right:-20px;
+   */
+  transform: translate(20px , 0);
+}
+
+.mouseOverLeft{
+  background-color:#99C1FC;
+  /* margin-right:20px;
+  margin-left:-20px; */
+  transform: translate(-20px , 0);
+}
+
+.drag_enter{
+  background-color:black;
+  cursor:pointer;
+}
+
+#titleAndPointBoard {
+  width:100%;
+  display:block;
+}
+
+#scoreBoardContainer{
+  width:20%;
+  margin-left:20px;
+  display: flex;
+  flex-direction:column;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+#scoreBoardContainer .button{
+  /* width:100%; */
+  border:3px solid black;
+  border-radius:20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:50px;
+  margin-top:5%;
+  background-color:#674CFC;
+  color:white;
+  font-size: 1.3em;
+}
+
+
+#scoreBoard{
+  background-color:#48ffd7;
+  border-radius:20px;
+  border:3px solid black;
+  padding:10%;
+}
+
+#scoreTable{
+  width:100%;
+}
+
+#scoreTable tr td {
+  /* width:50%; */
+  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.3em;
+}
+
+#scoreTable tr td:first-child{
+  text-align: left;
+}
+#scoreTable tr td:nth-child(2){
+  text-align: right;
+}
+
+.lifeMinus{
+  background-color:red;
+}
+
+body{
+  position:relative;
+}
+
+#courtine{
+  width:100%;
+  height:100%;
+  background-color:black;
+  position:absolute;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+#courtineUp {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#courtineDown{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+
+#messageContainer{
+  color: #AC9DFC;
+  font-size: 3em;
+  margin-left:20px;
+  font-family: "boldFont";
+  letter-spacing: 5px;
+}
+
+#wrongWordsTable {
+  color:#AC9DFC;
+  width:100%;
+  font-size: 1.5em;
+  border-spacing: 40px 0;
+  margin-top:20px;
+}
+
+#wrongWordsTable tr td:last-child{
+  text-align: start;
+  margin:0;
+  padding:0;
+}
+
+.boardContainer {
+  width:94%;
+  height:94%;
+  display:flex;
+}

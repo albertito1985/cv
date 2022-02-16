@@ -1,0 +1,142 @@
+{
+    "welcome":"Welcome!",
+    "navigation":{
+        "presentation":"presentation",
+        "education":"education",
+        "skills":"skills",
+        "experience":"experience",
+        "contact":"contact",
+        "scrollTo": "Scroll to {{area}}",
+        "linkTo": "Link to {{area}}",
+        "menu": {
+            "alt": "Menu icon",
+            "title": "Menu"
+        }
+    },
+    "card":"My competency as a cognitive scientist is to use knowledge about the clockwork of the mind and the human-computer interaction to design technological tools (web pages, applications, equipment or systems). This way I can design technological tools maximizing their usability (for example minimizing the cognitive load or stimulating the memory) specifically for its target group.",
+    "utbildning": {
+        "title": "Education",
+        "description":"I have recently concluded my studies in cognitive science at the University of Linköping. My carreer togeather with the free courses i've carried out involve the following:",
+        "courses": [
+            "Basic programming in C++",
+            "Cognitive Science - cognitive abilities I and II",
+            "Cognitive science - introduction",
+            "Cognitive science - research perspective",
+            "Computer communication in the internet",
+            "Conclusions on cognitive science",
+            "Interaction and mobility",
+            "Interaction, design and usability I, II, III, IV",
+            "Internet, society and politics",
+            "Language, culture and cognition",
+            "Project in cognitive science",
+            "Research methods - Qualitative and Quantitative methods",
+            "Situated cognition - interaction and design",
+            "Situated cognition",
+            "Social interaction and cognition",
+            "Social psychology and inter-human relations",
+            "Student thesis in cognitive science",
+            "Webb development - webpage design",
+            "Webb development - front end with Javascript"
+        ]
+    },
+    "skills": {
+        "title": "Skills"
+    },
+    "experience":{
+        "title":"Experience",
+        "javaScript":{
+            "name":"JavaScript",
+            "pairWords": {
+                "name": "Pair the words",
+                "description": "This was my first project with JavaScript before I took a course att the university.",
+                "content": ["HTML", "CSS", "JavaScript"],
+                "alt":"This sections shows a game That I programmed while I self-learned JavaScript."
+            },
+            "gameMessage":"This 'game' was designed for bigger screens."
+        },
+        "webDevelopment":{
+            "name":"Web Development",
+            "webCv": {
+                "name": "web CV",
+                "description": "This project was made to show what I can do.",
+                "content": ["HTML", "CSS", "JavaScript", "React", "NPM libraries"],
+                "links": {
+                    "gitHub":"Page's Code"
+                }
+            },
+            "schoolApp": {
+                "name": "SchoolApp",
+                "description": "SchoolApp is a school-browser. It uses Google Maps, Google Geocoding and Skolverkets API.",
+                "content": ["HTML", "CSS", "JavaScript", "React", "NPM libraries", "API Use"],
+                "links": {
+                    "gitHub":"Page's Code"
+                }
+            }
+        },
+        "design":{
+            "name":"Design",
+            "catchApp": {
+                "name": "CatchApp",
+                "description": "Catchapp is a prototype of a mobile application to stimulate social interaction.",
+                "content": ["Several iterations", "Heuristic Analaysis", "Usability testing", "Design"],
+                "links": {
+                    "prototype":"prototype",
+                    "documentation": "documentation"
+                }
+            }
+        },
+        "ux":{
+            "name":"UX",
+            "kompisByrån": {
+                "name": "Kompisbyrån",
+                "description": "An analysis of Kompisbyrån's webpage to improve its usability.",
+                "content": ["Heuristic Analaysis", "Design"],
+                "links": {
+                    "documentation":"Documentation"
+                }
+            },
+            "ensios": {
+                "name": "Ensio's AB",
+                "description": "An analysis of Ensio's AB webpage to improve its usability.",
+                "content": ["Heuristic Analaysis", "Design"],
+                "links": {
+                    "documentation":"Documentation"
+                }
+            }
+        },
+        "research":{
+            "name":"Research",
+            "thesis": {
+                "name": "Bachellor's Thesis",
+                "description": "My thesis is a research in which I focus on how interaction with a computer affect learning new words in a second language.",
+                "content": ["Field studies","Cognitive Theory"],
+                "links": {
+                    "documentation":"Link to my Thesis"
+                }
+            },
+            "arbetsformedlingen": {
+                "name": "Arbetsformedlingen",
+                "description": "The project with Arbetsformedlingen is a research to find out which factors affect the job searcher’s decision to apply for a job.",
+                "content": ["Field studies","Cognitive Theory"],
+                "links": {
+                    "documentation":"Documentation"
+                }
+            }
+        }
+    },
+    "footer":{
+        "contact": "Contact",
+        "mail":{
+            "title":"Drop me a line",
+            "alt":"link to write me an e-mail."
+        },
+        "phone":{
+            "title":"Give me a call",
+            "alt":"link to give me a phone call."
+        },
+        "back": {
+            "title" :"Back to the top",
+            "alt": "Scroll back to the top"
+        }
+    }
+}

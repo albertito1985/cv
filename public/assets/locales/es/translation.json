@@ -1,0 +1,142 @@
+{
+    "welcome":"Bienvenidos!",
+    "navigation":{
+        "presentation":"presentación",
+        "education":"educación",
+        "skills":"habilidades",
+        "experience":"experiencia",
+        "contact":"contactos",
+        "scrollTo": "Ir a {{area}}",
+        "linkTo": "Enlace hacia el area de {{area}}",
+        "menu": {
+            "alt": "Icono de menú",
+            "title": "Menú"
+        }
+    },
+    "card":"Mi competencia como cientifico cognitivo es utilizar el conocimiento de el funcionamiento de la mente y la interacción humano-computadora para diseñar productos tecnológicos como páginas webb, applicaciónes, aparatos ó sistemas. De ésta manera puedo diseñar herramientas tecnolígicas maximizando su usabilidad especificamente para su grupo específico de usuarios (por ejemplo minimizando la carga cognitiva o estimulando la memoria)",
+    "utbildning": {
+        "title": "Educación",
+        "description":"Soy recién graduado en la carrera de ciencias cognitivas en la universidad de Linköping. Los cursos de la carrera justo con los cursos libres que he llevado son los siguientes:",
+        "courses": [
+            "Ciencias cognitivas - habilidades cognitivas",
+            "Ciencias cognitivas - introducción",
+            "Ciencias cognitivas - perspectiva de investigación",
+            "Cognicion situada - interacción y diseño",
+            "Comunicación entre computadoras en el internet",
+            "Curso de clausura en ciencias cognitivas",
+            "Desarrollo de páginas web - diseño web",
+            "Desarrollo de páginas web - Cliente/JavaScript",
+            "Habilidades cognitivas I y II",
+            "Interacción social y cognición",
+            "Interacción y mobilidad",
+            "Interacción, diseño y usabilidad I, II, III y IV 30 créditos",
+            "Internet, sociedad y política",
+            "Lenguaje, cultura y cognición",
+            "Métodos de investigación - métodos cuantitativos y cualitativos",
+            "Programación basica con C++",
+            "Proyecto en ciencias cognitivas",
+            "Psycología social - relaciones humanas",
+            "Tesis en ciencias cognitivas"
+        ]
+    },
+    "skills": {
+        "title": "Habilidades"
+    },
+    "experience":{
+        "title":"Experiencia",
+        "javaScript":{
+            "name":"JavaScript",
+            "pairWords": {
+                "name": "Unír los pares",
+                "description": "Éste fué mi primer proyecto como autodidacta en JavaScript ántes de tomar un curso en la universidad. Ésto es una muestra de cuánto puedo aprender por mi cuenta.",
+                "content": ["HTML", "CSS", "JavaScript"],
+                "alt":"Ésta sección muestra un juego en Javascript que yo programé ántes de hacer un curso de éste lenguaje en la universidad."
+            },
+            "gameMessage":"Este 'juego' fue diseñado para monitores más grandes"
+        },
+        "webDevelopment":{
+            "name":"Desarrollo web",
+            "webCv": {
+                "name": "Currículum web",
+                "description": "Éste proyecto fue hecho específicamente para mostrar lo que puedo hacer.",
+                "content": ["HTML", "CSS", "JavaScript", "React", "NPM libraries"],
+                "links": {
+                    "gitHub":"Códigos de la página"
+                }
+            },
+            "schoolApp": {
+                "name": "SchoolApp",
+                "description": "SchoolApp es un buscador de escuelas. Úsa Google Maps, Google Geocoding y el API de Skolverkets.",
+                "content": ["HTML", "CSS", "JavaScript", "React", "librerias de NPM", "Uso de APIs"],
+                "links": {
+                    "gitHub":"Códigos de la página"
+                }
+            }
+        },
+        "design":{
+            "name":"Diseño",
+            "catchApp": {
+                "name": "CatchApp",
+                "description": "Catchapp  es un prototipo de una aplicación para smartphones con la finalidad de estimular la interaction social.",
+                "content": ["iteraciones", "Analisis Heurístico", "Pruebas de usabilidad", "Diseño"],
+                "links": {
+                    "prototype":"prototipo",
+                    "documentation": "documentación"
+                }
+            }
+        },
+        "ux":{
+            "name":"UX",
+            "kompisByrån": {
+                "name": "Kompisbyrån",
+                "description": "Un analisis de la pagina web de Kompisbyrån para maximizar la usabilidad de la página.",
+                "content": ["Analisis Heurístico", "Diseño"],
+                "links": {
+                    "documentation":"Documentación"
+                }
+            },
+            "ensios": {
+                "name": "Ensio's AB",
+                "description": "Un analisis de la pagina web de Ensio's AB para maximizar la usabilidad de la página.",
+                "content": ["Analisis Heurístico", "Diseño"],
+                "links": {
+                    "documentation":"Documentación"
+                }
+            }
+        },
+        "research":{
+            "name":"Investigación",
+            "thesis": {
+                "name": "Tesina de Bachiller",
+                "description":"Mi tesis es una investigación enfocada en cómo la interacción con una computadora afecta el aprendizaje de palabras en un segundo idioma.",
+                "content": ["Estudio de campo","Teoría cognitiva"],
+                "links": {
+                    "documentation":"Enlace a mi tesina."
+                }
+            },
+            "arbetsformedlingen": {
+                "name": "Arbetsformedlingen",
+                "description": "el proyecto con la agencia de empleos sueca (Arbetsformedlingen) es un estudio que se enfoca en descubrir que factores afectan a las personas buscando trabajo para aplicar a un trabajo específico.",
+                "content": ["Estudio de campo","Teoría cognitiva"],
+                "links": {
+                    "documentation":"Documentación"
+                }
+            }
+        }
+    },
+    "footer":{
+        "contact": "Contactame",
+        "mail":{
+            "title":"Escríbeme un correo electronico",
+            "alt":"Link para escribirme un correo electronico."
+        },
+        "phone":{
+            "title":"Llamame",
+            "alt":"Link para darme una llamada."
+        },
+        "back": {
+            "title" :"Al inicio de la página",
+            "alt": "Regresar al inicio de la página."
+        }
+    }
+}
