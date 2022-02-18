@@ -290,6 +290,7 @@ generateKompetenser(){
           </div>
           <div id="titleContainer">
             <h1>{t("skills.title")}</h1>
+            <p className="skillsDescription">{t("skills.description")}</p>
             <div id="fish"></div>
           </div>
         </div> 

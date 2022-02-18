@@ -42,7 +42,8 @@
         ]
     },
     "skills": {
-        "title": "Kompetenser"
+        "title": "Kompetenser",
+        "description":"Avsiktligt markerade jag inte någon kometens med hundra procent, eftersom dessa programmeringsspråk och färdigheter utvecklas konstant och eftersom bortom alla program och språk som jag behärskar, den bästa kompetens som jag skulle kunna visa er är att hitta lösningar till problem relaterade till dessa programm och språk på nätet."
     },
     "experience":{
         "title":"Erfarenhet",

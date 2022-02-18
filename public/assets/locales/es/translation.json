@@ -40,7 +40,8 @@
         ]
     },
     "skills": {
-        "title": "Habilidades"
+        "title": "Habilidades",
+        "description":"Intencionalmente ninguna de las presentes habilidades tiene cien porciento de pericia por que éstos programas y lenguajes de programación son desarrollados constantemente. Por ésto mismo, aparte de los lenguajes que domino, la mejor habilidad que puedo mostrarles es encontrar soluciones a problemas relacionados con éstos programas y lenguajes en el internet."
     },
     "experience":{
         "title":"Experiencia",
