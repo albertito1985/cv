@@ -70,7 +70,8 @@
                 "description": "SchoolApp es un buscador de escuelas. Úsa Google Maps, Google Geocoding y el API de Skolverkets.",
                 "content": ["HTML", "CSS", "JavaScript", "React", "librerias de NPM", "Uso de APIs"],
                 "links": {
-                    "gitHub":"Códigos de la página"
+                    "gitHub":"Códigos de la página",
+                    "video":"Video"
                 }
             }
         },

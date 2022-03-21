@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import {BiLink} from 'react-icons/bi';
 import {AiOutlineArrowUp, AiFillFileWord, AiFillFilePdf, AiFillGithub} from 'react-icons/ai';
 import {FiMail, FiPhone} from 'react-icons/fi';
+import {IoIosVideocam} from 'react-icons/io';
 import { withTranslation } from 'react-i18next';
 import { t } from 'i18next';
 import experience from './modells/experience';
@@ -347,6 +348,7 @@ class Experience extends Component{
       word: ()=><AiFillFileWord/>,
       pdf: ()=><AiFillFilePdf/>,
       git: ()=><AiFillGithub/>,
+      video: ()=><IoIosVideocam/>
     }
     let projects = section.projects;
     

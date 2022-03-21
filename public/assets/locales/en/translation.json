@@ -70,7 +70,8 @@
                 "description": "SchoolApp is a school-browser. It uses Google Maps, Google Geocoding and Skolverkets API.",
                 "content": ["HTML", "CSS", "JavaScript", "React", "NPM libraries", "API Use"],
                 "links": {
-                    "gitHub":"Page's Code"
+                    "gitHub":"Page's Code",
+                    "video":"Video"
                 }
             }
         },

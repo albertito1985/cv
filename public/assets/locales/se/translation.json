@@ -72,7 +72,8 @@
                 "description": "SchoolApp är en skol-sökverktyg. Den använder Google Maps, Google Geocoding och Skolverkets API.",
                 "content": ["HTML", "CSS", "JavaScript", "React", "NPM bibliotek", "API användning"],
                 "links": {
-                    "gitHub":"Sidans kod"
+                    "gitHub":"Sidans kod",
+                    "video":"Video"
                 }
             }
         },

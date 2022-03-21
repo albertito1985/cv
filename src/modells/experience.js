@@ -2,6 +2,7 @@ import catchapp from '../documents/Catchapp/Utvecklingsprocess catchapp.pdf';
 import kompisByrån from '../documents/Kompisbyran rapport.docx';
 import ensios from '../documents/Ensios webbanalys.docx';
 import arbetsFormedlingen from '../documents/Arbetsförmedlingen.docx';
+import schoolVideo from "../videos/Untitled.mp4"
 
 let experience = {
     
@@ -27,6 +28,11 @@ let experience = {
               name:"pages code in GitHub",
               address: "https://github.com/albertito1985/SchoolApp",
               type: "git"
+            },
+            video:{
+              name:"video about the page.",
+              address: schoolVideo,
+              type: "video"
             }
           },
         }
