@@ -57,7 +57,7 @@ let experience = {
             }
           },
         },
-        Qrawler:{
+        qrawler:{
           name: "qrawler",
           background:"qrawler.jpg",
           links: {
@@ -66,7 +66,7 @@ let experience = {
               address: "https://www.figma.com/file/tCampmECzFEkUbVylDMR09/iteration-2?node-id=853%3A19238",
               type: "link"
             }
-          },
+          }
         }
       },
     },

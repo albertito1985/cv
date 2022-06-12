@@ -365,6 +365,8 @@ class Experience extends Component{
           <div className= "text">
             <div className="title"><h2>{projects[projectKey].name}</h2></div>
             <div className="description" >{t(`experience.${section.name}.${projectKey}.description`)}</div>
+            {console.log(projectKey)}
+            {console.log(t(`experience.${section.name}.${projectKey}.content`, { returnObjects: true}))}
             <div className="content"><strong>{t(`experience.${section.name}.${projectKey}.content`, { returnObjects: true}).join(" / ")}</strong></div>
             <div className="lankar">{links}</div>
           </div>
