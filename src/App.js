@@ -74,9 +74,6 @@ class App extends Component {
     const scrollbarWidth = body.offsetWidth - body.clientWidth;
     let menuIcon = document.getElementById("menuIcon");
     menuIcon.style.right =  `${10 + scrollbarWidth}px`;
-
-
-    console.log(menuIcon);
   }
 
   observerhandler(observerFunction){

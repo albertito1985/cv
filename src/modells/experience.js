@@ -56,6 +56,17 @@ let experience = {
               type: "pdf"
             }
           },
+        },
+        Qrawler:{
+          name: "qrawler",
+          background:"qrawler.jpg",
+          links: {
+            prototype:{
+              name:"Prototype",
+              address: "https://www.figma.com/file/tCampmECzFEkUbVylDMR09/iteration-2?node-id=853%3A19238",
+              type: "link"
+            }
+          },
         }
       },
     },
