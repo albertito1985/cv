@@ -290,9 +290,10 @@ opacity:1;
 }
 
 #cardPic{
-  background-image: url(./images/DSC_7255.jpg);
+  background-image: url(./images/DSC_8754M.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size: 150%;
   height: 250px;
   width:250px;
   transform: translate(125px,0);
