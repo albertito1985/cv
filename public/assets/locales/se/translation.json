@@ -78,7 +78,7 @@
             }
         },
         "design":{
-            "name":"Design",
+            "name":"UX/UI",
             "catchApp": {
                 "name": "CatchApp",
                 "description": "Catchapp är en prototyp av en mobilapplikation för att stimulera den sociala interaktion.",
@@ -87,10 +87,18 @@
                     "prototype":"prototyp",
                     "documentation": "Dokumentation"
                 }
+            },
+            "qrawler": {
+                "name": "Qrawler sanctions report filler",
+                "description": "I det här projektet utvecklar jag ett vertyg för att automatisera utredningen av sanktioner i specifika affärs strukturer.",
+                "content": ["Iterationer", "Heuristisk utvärdering", "Användbarhetstester", "Design", "Prototyp i Figma"],
+                "links": {
+                    "prototype":"prototyp"
+                }
             }
         },
         "ux":{
-            "name":"UX",
+            "name":"Användbarhet",
             "kompisByrån": {
                 "name": "Kompisbyrån",
                 "description": "I uppdrag av företaget Kompisbyrån genomförde jag en analys av deras webbsida för att utöka dess användbarhet.",

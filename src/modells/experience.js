@@ -47,7 +47,7 @@ let experience = {
           links: {
             prototype:{
               name:"Prototype",
-              address: "http://www.catchapp.se/cv/public/bilagor/Catch%20app/prototyp/Webbsida/Home.html",
+              address: 'https://www.catchapp.se/cvbilagor/Catch%20app/prototyp/Webbsida/intro.html',
               type: "link"
             },
             documentation:{
@@ -63,7 +63,7 @@ let experience = {
           links: {
             prototype:{
               name:"Prototype",
-              address: "https://www.figma.com/file/tCampmECzFEkUbVylDMR09/iteration-2?node-id=853%3A19238",
+              address: "https://www.figma.com/file/Z8IIRxN9p2O6nCspVFAm7U/iteration-2-(Copy)?node-id=1101%3A22365",
               type: "link"
             }
           }

@@ -76,7 +76,7 @@
             }
         },
         "design":{
-            "name":"Design",
+            "name":"UX/UI",
             "catchApp": {
                 "name": "CatchApp",
                 "description": "Catchapp is a prototype of a mobile application to stimulate social interaction.",
@@ -85,10 +85,18 @@
                     "prototype":"prototype",
                     "documentation": "documentation"
                 }
+            },
+            "qrawler": {
+                "name": "Qrawler sanctions report filler",
+                "description": "In this project I develop a tool to automatize the construction of a screening report about international sanctions to companies in a certain traiding structure.",
+                "content": ["Several iterations", "Heuristic analaysis", "Usability testing", "Design", "Figma prototype"],
+                "links": {
+                    "prototype":"Prototype"
+                }
             }
         },
         "ux":{
-            "name":"UX",
+            "name":"Usability",
             "kompisByrån": {
                 "name": "Kompisbyrån",
                 "description": "An analysis of Kompisbyrån's webpage to improve its usability.",

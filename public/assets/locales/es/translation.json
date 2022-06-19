@@ -76,7 +76,7 @@
             }
         },
         "design":{
-            "name":"Diseño",
+            "name":"UX/UI",
             "catchApp": {
                 "name": "CatchApp",
                 "description": "Catchapp  es un prototipo de una aplicación para smartphones con la finalidad de estimular la interaction social.",
@@ -85,10 +85,18 @@
                     "prototype":"prototipo",
                     "documentation": "documentación"
                 }
+            },
+            "qrawler": {
+                "name": "Qrawler sanctions report filler",
+                "description": "En éste proyecto desarrollo una herramienta para automatizar la construcción de un reporte de investigación acerca de sanciones internactionales en una estructura de negocios.",
+                "content": ["iteraciones", "Analisis Heurístico", "Pruebas de usabilidad", "Diseño", "Prototipo en Figma"],
+                "links": {
+                    "prototype":"prototipo"
+                }
             }
         },
         "ux":{
-            "name":"UX",
+            "name":"Usabilidad",
             "kompisByrån": {
                 "name": "Kompisbyrån",
                 "description": "Un analisis de la pagina web de Kompisbyrån para maximizar la usabilidad de la página.",
