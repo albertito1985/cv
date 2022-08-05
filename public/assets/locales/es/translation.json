@@ -86,31 +86,22 @@
                     "documentation": "documentación"
                 }
             },
+            "ensios": {
+                "name": "Ensio's AB",
+                "description": "Éste proyecto contiene un analisis de usabilidad de la pagina web de Ensio's AB que desembocó en un nuevo diseño de la página y su CMS.",
+                "content": ["Analisis Heurístico", "Diseño"],
+                "links": {
+                    "documentation":"Documentación",
+                    "prototype":"prototipo"
+                }
+            },
             "qrawler": {
                 "name": "Qrawler sanctions report filler",
                 "description": "En éste proyecto desarrollo una herramienta para automatizar la construcción de un reporte de investigación acerca de sanciones internactionales en una estructura de negocios.",
                 "content": ["iteraciones", "Analisis Heurístico", "Pruebas de usabilidad", "Diseño", "Prototipo en Figma"],
                 "links": {
-                    "prototype":"prototipo"
-                }
-            }
-        },
-        "ux":{
-            "name":"Usabilidad",
-            "kompisByrån": {
-                "name": "Kompisbyrån",
-                "description": "Un analisis de la pagina web de Kompisbyrån para maximizar la usabilidad de la página.",
-                "content": ["Analisis Heurístico", "Diseño"],
-                "links": {
-                    "documentation":"Documentación"
-                }
-            },
-            "ensios": {
-                "name": "Ensio's AB",
-                "description": "Un analisis de la pagina web de Ensio's AB para maximizar la usabilidad de la página.",
-                "content": ["Analisis Heurístico", "Diseño"],
-                "links": {
-                    "documentation":"Documentación"
+                    "prototype":"prototipo",
+                    "documentation": "documentación"
                 }
             }
         },

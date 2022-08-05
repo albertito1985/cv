@@ -77,13 +77,13 @@
         },
         "design":{
             "name":"UX/UI",
-            "catchApp": {
-                "name": "CatchApp",
-                "description": "Catchapp is a prototype of a mobile application to stimulate social interaction.",
-                "content": ["Several iterations", "Heuristic Analaysis", "Usability testing", "Design"],
+            "ensios": {
+                "name": "Ensio's AB",
+                "description": "This project contains a usability analysis of Ensio's AB webpage which led to a new design of the cms.",
+                "content": ["Heuristic Analaysis", "Design", "Figma prototype"],
                 "links": {
-                    "prototype":"prototype",
-                    "documentation": "documentation"
+                    "documentation":"Documentation",
+                    "prototype":"Prototype"
                 }
             },
             "qrawler": {
@@ -91,25 +91,7 @@
                 "description": "In this project I develop a tool to automatize the construction of a screening report about international sanctions to companies in a certain traiding structure.",
                 "content": ["Several iterations", "Heuristic analaysis", "Usability testing", "Design", "Figma prototype"],
                 "links": {
-                    "prototype":"Prototype"
-                }
-            }
-        },
-        "ux":{
-            "name":"Usability",
-            "kompisByrån": {
-                "name": "Kompisbyrån",
-                "description": "An analysis of Kompisbyrån's webpage to improve its usability.",
-                "content": ["Heuristic Analaysis", "Design"],
-                "links": {
-                    "documentation":"Documentation"
-                }
-            },
-            "ensios": {
-                "name": "Ensio's AB",
-                "description": "An analysis of Ensio's AB webpage to improve its usability.",
-                "content": ["Heuristic Analaysis", "Design"],
-                "links": {
+                    "prototype":"Prototype",
                     "documentation":"Documentation"
                 }
             }

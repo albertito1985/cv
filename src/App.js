@@ -360,7 +360,7 @@ class Experience extends Component{
       let background = require(`./images/${projects[projectKey].background}`);
       
       return(<div className="experience" id={projectKey} key={projectKey}>
-        <div className="backgroundContainer"><div className="background" style={{backgroundImage: `url(${background})`}} ></div></div>
+        <div className="backgroundContainer"><div className={`background ${projectKey}`} style={{backgroundImage: `url(${background})`}} ></div></div>
         <div className="textContainer">
           <div className= "text">
             <div className="title"><h2>{projects[projectKey].name}</h2></div>

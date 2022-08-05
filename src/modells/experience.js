@@ -1,6 +1,5 @@
-import catchapp from '../documents/Catchapp/Utvecklingsprocess catchapp.pdf';
-import kompisByrån from '../documents/Kompisbyran rapport.docx';
 import ensios from '../documents/Ensios webbanalys.docx';
+import report from '../documents/report filler process.pdf';
 import arbetsFormedlingen from '../documents/Arbetsförmedlingen.docx';
 import schoolVideo from "../videos/Untitled.mp4"
 
@@ -39,21 +38,21 @@ let experience = {
       },
     },
     design:{
-      name:"design",
+      name:"design", // UX/UI in practice
       projects:{
-        catchApp:{
-          name: "catchApp",
-          background:"catchapp.png",
+        ensios:{
+          name: "Ensios",
+          background:"Ensios.jpg",
           links: {
-            prototype:{
-              name:"Prototype",
-              address: 'https://www.catchapp.se/cvbilagor/Catch%20app/prototyp/Webbsida/intro.html',
-              type: "link"
-            },
             documentation:{
               name:"Documentation",
-              address: catchapp,
-              type: "pdf"
+              address: ensios,
+              type: "word"
+            },
+            prototype:{
+              name:"Prototype",
+              address: "https://www.figma.com/file/so2BmYdGXLY1qDrriHXSkj/Ensio's?node-id=30%3A1339",
+              type: "link"
             }
           },
         },
@@ -63,37 +62,15 @@ let experience = {
           links: {
             prototype:{
               name:"Prototype",
-              address: "https://www.figma.com/file/Z8IIRxN9p2O6nCspVFAm7U/iteration-2-(Copy)?node-id=1101%3A22365",
+              address: "https://www.figma.com/file/Z8IIRxN9p2O6nCspVFAm7U/iteration-2-(Copy)?node-id=1205%3A22262",
               type: "link"
+            },
+            documentation:{
+              name:"Documentation",
+              address: report,
+              type: "word"
             }
           }
-        }
-      },
-    },
-    ux:{
-      name:"ux",
-      projects:{
-        kompisByrån:{
-          name: "kompisByrån",
-          background:"kb.jpg",
-          links: {
-            documentation:{
-              name:"Documentation",
-              address: kompisByrån,
-              type: "word"
-            }
-          },
-        },
-        ensios:{
-          name: "Ensios",
-          background:"Ensios.jpg",
-          links: {
-            documentation:{
-              name:"Documentation",
-              address: ensios,
-              type: "word"
-            }
-          },
         }
       },
     },

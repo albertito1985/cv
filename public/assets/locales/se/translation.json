@@ -79,13 +79,13 @@
         },
         "design":{
             "name":"UX/UI",
-            "catchApp": {
-                "name": "CatchApp",
-                "description": "Catchapp är en prototyp av en mobilapplikation för att stimulera den sociala interaktion.",
-                "content": ["Iterationer", "Heuristisk utvärdering", "Användbarhetstester", "Design"],
+            "ensios": {
+                "name": "Ensio's AB",
+                "description": "I uppdrag av företaget Ensios´s AB genomförde jag en analys av deras webbsida för att utöka dess användbarhet. Denna analys mynnade i en ny design av företagets webbsida och CMS",
+                "content": ["Heuristisk utvärdering", "Design", "Prototyp"],
                 "links": {
-                    "prototype":"prototyp",
-                    "documentation": "Dokumentation"
+                    "documentation":"Dokumentation",
+                    "prototype":"Prototyp"
                 }
             },
             "qrawler": {
@@ -93,26 +93,8 @@
                 "description": "I det här projektet utvecklar jag ett vertyg för att automatisera utredningen av sanktioner i specifika affärs strukturer.",
                 "content": ["Iterationer", "Heuristisk utvärdering", "Användbarhetstester", "Design", "Prototyp i Figma"],
                 "links": {
-                    "prototype":"prototyp"
-                }
-            }
-        },
-        "ux":{
-            "name":"Användbarhet",
-            "kompisByrån": {
-                "name": "Kompisbyrån",
-                "description": "I uppdrag av företaget Kompisbyrån genomförde jag en analys av deras webbsida för att utöka dess användbarhet.",
-                "content": ["Heuristisk utvärdering", "Design"],
-                "links": {
-                    "documentation":"Dokumentation"
-                }
-            },
-            "ensios": {
-                "name": "Ensio's AB",
-                "description": "I uppdrag av företaget Ensios´s AB genomförde jag en analys av deras webbsida för att utöka dess användbarhet.",
-                "content": ["Heuristisk utvärdering", "Design"],
-                "links": {
-                    "documentation":"Dokumentation"
+                    "prototype":"Prototyp",
+                    "documentation": "Dokumentation"
                 }
             }
         },
