@@ -10,11 +10,11 @@ const skills = {
         icon: "ps.svg",
         knowledge: 80,
       },
-      audacity : {
-        name: "Audacity",
-        icon: "audacity.svg",
-        knowledge: 50,
-      },
+      // audacity : {
+      //   name: "Audacity",
+      //   icon: "audacity.svg",
+      //   knowledge: 50,
+      // },
       c : {
         name: "C++",
         icon: "c.svg",
@@ -28,6 +28,11 @@ const skills = {
       css : {
         name: "CSS",
         icon: "css.svg",
+        knowledge: 90,
+      },
+      figma:{
+        name: "Figma",
+        icon: "figma.svg",
         knowledge: 90,
       },
       html : {
