@@ -92,7 +92,9 @@
                 "content": ["Several iterations", "Heuristic analaysis", "Usability testing", "Design", "Figma prototype"],
                 "links": {
                     "prototype":"Prototype",
-                    "documentation":"Documentation"
+                    "documentation":"Documentation",
+                    "requirements":"Requirements",
+                    "stories":"User stories"
                 }
             }
         },

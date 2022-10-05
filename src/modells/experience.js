@@ -1,6 +1,7 @@
 import ensios from '../documents/Ensios webbanalys.docx';
-import report from '../documents/report filler process.pdf';
 import arbetsFormedlingen from '../documents/Arbetsförmedlingen.docx';
+import krav from '../documents/Krav.xlsx';
+import stories from '../documents/Stories.docx';
 import schoolVideo from "../videos/Untitled.mp4"
 
 let experience = {
@@ -62,12 +63,17 @@ let experience = {
           links: {
             prototype:{
               name:"Prototype",
-              address: "https://www.figma.com/file/Z8IIRxN9p2O6nCspVFAm7U/iteration-2-(Copy)?node-id=1205%3A22262",
+              address: "https://www.figma.com/file/WkwwgpnXqJYn2GNrVrAlLh/Gr%C3%A4nssnitt-0.1-(Copy)?node-id=0%3A1",
               type: "link"
             },
-            documentation:{
-              name:"Documentation",
-              address: report,
+            requirements:{
+              name:"Requirements",
+              address: krav,
+              type: "excell"
+            },
+            stories:{
+              name:"User stories",
+              address: stories,
               type: "word"
             }
           }

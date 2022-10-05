@@ -100,8 +100,9 @@
                 "description": "En éste proyecto desarrollo una herramienta para automatizar la construcción de un reporte de investigación acerca de sanciones internactionales en una estructura de negocios.",
                 "content": ["iteraciones", "Analisis Heurístico", "Pruebas de usabilidad", "Diseño", "Prototipo en Figma"],
                 "links": {
-                    "prototype":"prototipo",
-                    "documentation": "documentación"
+                    "prototype":"Prototipo",
+                    "requirements":"Requerimientos",
+                    "stories":"Historias de usuario"
                 }
             }
         },

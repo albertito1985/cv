@@ -2,7 +2,7 @@ import './App.css';
 import {NavigationScreenW} from './components/Navigation';
 import React, { Component } from 'react';
 import {BiLink} from 'react-icons/bi';
-import {AiOutlineArrowUp, AiFillFileWord, AiFillFilePdf, AiFillGithub} from 'react-icons/ai';
+import {AiOutlineArrowUp, AiFillFileWord, AiFillFilePdf, AiFillGithub, AiFillFileExcel} from 'react-icons/ai';
 import {FiMail, FiPhone} from 'react-icons/fi';
 import {IoIosVideocam} from 'react-icons/io';
 import { withTranslation } from 'react-i18next';
@@ -345,7 +345,8 @@ class Experience extends Component{
       word: ()=><AiFillFileWord/>,
       pdf: ()=><AiFillFilePdf/>,
       git: ()=><AiFillGithub/>,
-      video: ()=><IoIosVideocam/>
+      video: ()=><IoIosVideocam/>,
+      excell: ()=><AiFillFileExcel/>
     }
     let projects = section.projects;
     
