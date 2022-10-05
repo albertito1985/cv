@@ -97,7 +97,7 @@
             },
             "qrawler": {
                 "name": "Qrawler sanctions report filler",
-                "description": "En éste proyecto desarrollo una herramienta para automatizar la construcción de un reporte de investigación acerca de sanciones internactionales en una estructura de negocios.",
+                "description": "En éste proyecto desarrollo sistema para monitorear negocios para no infringir sanciones internacionales.",
                 "content": ["iteraciones", "Analisis Heurístico", "Pruebas de usabilidad", "Diseño", "Prototipo en Figma"],
                 "links": {
                     "prototype":"Prototipo",

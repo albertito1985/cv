@@ -88,7 +88,7 @@
             },
             "qrawler": {
                 "name": "Qrawler sanctions report filler",
-                "description": "In this project I develop a tool to automatize the construction of a screening report about international sanctions to companies in a certain traiding structure.",
+                "description": "In this project I develop a system to monitor tradings in order to do not infringe international sanctions.",
                 "content": ["Several iterations", "Heuristic analaysis", "Usability testing", "Design", "Figma prototype"],
                 "links": {
                     "prototype":"Prototype",

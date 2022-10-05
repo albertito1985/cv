@@ -90,7 +90,7 @@
             },
             "qrawler": {
                 "name": "Qrawler sanctions report filler",
-                "description": "I det här projektet utvecklar jag ett vertyg för att automatisera utredningen av sanktioner i specifika affärs strukturer.",
+                "description": "I det här projektet utvecklar jag ett system för att bevaka affärer för att inte bryta mot internationella sanktioner.",
                 "content": ["Iterationer", "Heuristisk utvärdering", "Användbarhetstester", "Design", "Prototyp i Figma"],
                 "links": {
                     "prototype":"Prototyp",
