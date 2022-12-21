@@ -77,13 +77,12 @@
         },
         "design":{
             "name":"UX/UI",
-            "ensios": {
-                "name": "Ensio's AB",
-                "description": "This project contains a usability analysis of Ensio's AB webpage which led to a new design of the cms.",
+            "mindtemp": {
+                "name": "Mindtemp",
+                "description": "This project deals with the design of Mindtemps webbsite. It is a complete makeover of their old website in which i have the responsibility of the graphic design, the structure and the UX/UI",
                 "content": ["Heuristic Analaysis", "Design", "Figma prototype"],
                 "links": {
-                    "documentation":"Documentation",
-                    "prototype":"Prototype"
+                    "prototype":"Documentation & prototyp"
                 }
             },
             "qrawler": {

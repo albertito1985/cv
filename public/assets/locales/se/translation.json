@@ -79,13 +79,12 @@
         },
         "design":{
             "name":"UX/UI",
-            "ensios": {
-                "name": "Ensio's AB",
-                "description": "I uppdrag av företaget Ensios´s AB genomförde jag en analys av deras webbsida för att utöka dess användbarhet. Denna analys mynnade i en ny design av företagets webbsida och CMS",
+            "mindtemp": {
+                "name": "Mindtemp",
+                "description": "Det här projektet handlar om en omdesign av Mindtemps webbisda. En komplett mekeover där jag ansvarar för webbsidans grafiska design, struktur och UX/UI.",
                 "content": ["Heuristisk utvärdering", "Design", "Prototyp"],
                 "links": {
-                    "documentation":"Dokumentation",
-                    "prototype":"Prototyp"
+                    "prototype":"Dokumentation och prototyp"
                 }
             },
             "qrawler": {

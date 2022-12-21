@@ -1,4 +1,3 @@
-import ensios from '../documents/Ensios webbanalys.docx';
 import arbetsFormedlingen from '../documents/Arbetsförmedlingen.docx';
 import krav from '../documents/Krav.xlsx';
 import stories from '../documents/Stories.docx';
@@ -41,18 +40,13 @@ let experience = {
     design:{
       name:"design", // UX/UI in practice
       projects:{
-        ensios:{
-          name: "Ensios",
-          background:"Ensios.jpg",
+        mindtemp:{
+          name: "mindtemp",
+          background:"mindtemp.jpg",
           links: {
-            documentation:{
-              name:"Documentation",
-              address: ensios,
-              type: "word"
-            },
             prototype:{
-              name:"Prototype",
-              address: "https://www.figma.com/file/so2BmYdGXLY1qDrriHXSkj/Ensio's?node-id=30%3A1339",
+              name:"Documentation & Prototype",
+              address: "https://www.figma.com/file/4eXcIPjSjiXQ0jLk9dMdiQ/Mindtemp?node-id=749%3A12461&t=KtNOYOJxP1HqLLvu-1",
               type: "link"
             }
           },

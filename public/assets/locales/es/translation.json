@@ -76,23 +76,12 @@
             }
         },
         "design":{
-            "name":"UX/UI",
-            "catchApp": {
-                "name": "CatchApp",
-                "description": "Catchapp  es un prototipo de una aplicación para smartphones con la finalidad de estimular la interaction social.",
-                "content": ["iteraciones", "Analisis Heurístico", "Pruebas de usabilidad", "Diseño"],
-                "links": {
-                    "prototype":"prototipo",
-                    "documentation": "documentación"
-                }
-            },
-            "ensios": {
-                "name": "Ensio's AB",
-                "description": "Éste proyecto contiene un analisis de usabilidad de la pagina web de Ensio's AB que desembocó en un nuevo diseño de la página y su CMS.",
+            "mindtemp": {
+                "name": "Mindtemp",
+                "description": "Éste proyecto se trata de el nuevo diseño de la página web de Mindtemp. En éste nuevo diseño soy responzable de el diseño gráfico, la estructura, la experiencia del usuario y la interacción de la página",
                 "content": ["Analisis Heurístico", "Diseño"],
                 "links": {
-                    "documentation":"Documentación",
-                    "prototype":"prototipo"
+                    "prototype":"Documentación y prototipo"
                 }
             },
             "qrawler": {
