@@ -59,9 +59,9 @@
         },
         "webDevelopment":{
             "name":"Webb utveckling",
-            "webCv": {
-                "name": "CV webb",
-                "description": "Det här projektet gjordes för att visa vad jag kan göra.",
+            "espanol247": {
+                "name": "Español 24-7",
+                "description": "Det här projektet är en portal för tutorialer och spel inom spanska undervisning. Notera att klockan komponenten är gjort från scratch.",
                 "content": ["HTML", "CSS", "JavaScript", "React", "NPM bibliotek"],
                 "links": {
                     "gitHub":"Sidans kod"

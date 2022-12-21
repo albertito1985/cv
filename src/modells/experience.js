@@ -8,13 +8,13 @@ let experience = {
     webDevelopment:{
       name:"webDevelopment",
       projects:{
-        webCv:{
-          name: "web CV",
-          background:"webbcv.jpg",
+        espanol247:{
+          name: "espanol247",
+          background:"es247.jpg",
           links: {
             gitHub:{
               name:"gitHub",
-              address: "https://github.com/albertito1985/cv",
+              address: "https://github.com/albertito1985/reloj-tutorial",
               type: "git"
             }
           },
@@ -72,21 +72,6 @@ let experience = {
             }
           }
         }
-      },
-    },
-    javaScript:{
-      name:"javaScript",
-      projects:{
-        // pairWords:{
-        //   name: "pairWords",
-        //   links: {
-        //     page:{
-        //       name:"page",
-        //       address: "./documents/matcha/Matcha.html",
-        //       type: "link"
-        //     }
-        //   },
-        // }
       },
     },
     research:{

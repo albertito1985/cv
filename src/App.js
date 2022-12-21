@@ -320,26 +320,6 @@ class Experience extends Component{
     
   }
   generateErfarenhet(section){
-    if(section.name === "javaScript"){
-      let style={
-        overflow:"hidden",
-        border:"none"
-      };
-      return (<>
-      <div className="iframeContainer experience" key="iframe">
-        <div className="startFullScreen" id="startFullScreen" >{t("experience.javaScript.gameMessage")} </div>
-        <div className="iframeInnerContainer">
-          <iframe alt={t("experience.javaScript.pairWords.alt")} style={style} className ="iframe" title="pair the words game" src="http://www.catchapp.se/matcha/Matcha.html"></iframe>
-        </div>
-        <div className="textContainer">
-          <div className="text">
-            <div className="title"><h2>{t("experience.javaScript.pairWords.name")}</h2></div>
-            <div className="description" >{t("experience.javaScript.pairWords.description")}</div>
-          </div>
-        </div>
-      </div>
-      </>)
-    }
     let icons = {
       link: ()=><BiLink/>,
       word: ()=><AiFillFileWord/>,
